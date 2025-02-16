@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI as OpenAIClient
 
 base_url = "https://api.aimlapi.com/v1"
-api_key = "64728cd6830144558598b8886f53f787"
+api_key = "Your_API_Key"
 system_prompt = "You are a song writer and always answer using rhymes and poetic devices"
 
 api = OpenAIClient(api_key=api_key, base_url=base_url)
